@@ -1,0 +1,132 @@
+:root {
+  --themeColor: #8a2be2;
+  --white: #fff;
+  --themeBgLight: #fafafa;
+  --montserat: "Montserrat", sans-serif;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #4f4f4f !important;
+}
+.parent {
+  display: flex;
+}
+.side-nav {
+  background: var(--themeColor);
+  width: 21%;
+  height: auto;
+  padding: 0.7rem;
+  scroll-behavior: auto;
+}
+.sub-title {
+  margin-top: -1rem;
+  font-family: var(--montserat);
+}
+.center {
+  text-align: center;
+}
+.nav-user-name {
+  padding: 0.4rem;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.profile-img {
+  height: 150px;
+  border-radius: 50%;
+  width: 60%;
+  line-height: 50px;
+}
+.white-text {
+  color: #fff !important;
+}
+.social-icons {
+  display: flex;
+}
+.icon {
+  background-color: var(--white);
+  color: var(--themeColor);
+  height: 32px;
+  width: 32px;
+  padding: 6px;
+  border-radius: 50%;
+  line-height: 15px;
+  font-size: 15px;
+  margin: 0.3rem;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+.hr {
+  color: var(--themeBgLight);
+  border: 0.5px solid var(--themeBgLight);
+  width: 100%;
+}
+.side-nav-p {
+  font-size: 14px;
+}
+.hero-img-div {
+  width: 50%;
+}
+.text-div {
+  width: 40%;
+}
+.content {
+  background-color: var(--themeBgLight);
+}
+.content-username {
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* nav link styling */
+.list ul {
+  list-style-type: none;
+  text-align: center;
+}
+li {
+  padding: 6px;
+}
+.link {
+  color: var(--themeBgLight);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-icon {
+  color: var(--themeBgLight);
+  margin-right: 8px;
+}
+.section-title {
+  font-weight: bold;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--themeColor);
+  font-size: 2rem;
+}
+.cta-btn-div {
+  padding-right: 1rem;
+}
+.cta-btn {
+  margin-right: 1rem !important;
+}
+.item-icon {
+  display: flex;
+}
+.skil-svg {
+  margin-right: 0.5rem;
+}
+.skill-title {
+  font-weight: bolder;
+  color: black;
+  font-family: var(--montserat);
+  font-size: 12px;
+  padding-top: 0.5rem;
+}
+.card {
+  border: none !important;
+}
